@@ -1,0 +1,71 @@
+
+h3{
+   position: relative;
+   text-align: left;
+
+}
+body{
+    background-color: darkorange;
+}
+ul {
+    position: sticky;
+    top: 0px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: royalblue;
+    color: white;
+    border-radius: 5px;
+    z-index: 1;
+  }
+  img{
+      width: 60px;
+      height: 60px;
+  }
+ 
+  li {
+   
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: darkgray;
+  }
+  .drop-content{
+    display: none;
+    position: absolute;
+z-index: 2;
+  }
+  .drop-content a{
+    background-color: #f9f9f9f9;
+    color: black;
+
+  }
+  .dropdown{
+    position: relative;
+  }
+  .dropdown:hover .drop-content{
+    position: absolute;
+    z-index: 10;
+    top: 10px;
+  display: block;
+  }
+  .active{
+    background-color: darkgray;
+  }
+.teddy{
+    position: relative;
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    
+}
